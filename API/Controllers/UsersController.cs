@@ -8,9 +8,8 @@ namespace API.Controllers;
 //git token
 //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
 //
-[ApiController]
-[Route("api/[controller]")]// /api/users
-public class UsersController:ControllerBase
+
+public class UsersController:BaseApiController
 {
     private readonly DataContext _context;
 
